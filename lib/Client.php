@@ -49,6 +49,7 @@ class Client
                 'headers' => array(
                 'GoCardless-Version' => '2015-07-06',
                 'Accept' => 'application/json',
+                'Accept-Language' => 'de',
                 'Content-Type' => 'application/json',
                 'Authorization' => "Bearer " . $access_token,
                 'GoCardless-Client-Library' => 'gocardless-pro-php',
